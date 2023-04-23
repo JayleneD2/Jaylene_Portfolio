@@ -102,8 +102,8 @@ nav ul li a:hover {
   #animate-me {
     transform: translateX(-100%);
     transition: transform 4s ease-in-out;
-    margin-top: auto;
-    
+    margin-top: auto !important;
+
   }
 
 
