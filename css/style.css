@@ -57,7 +57,7 @@ nav ul li a:hover {
  }
 
 #home-header h1 {
-    font-family: 'Bubblegum Sans', cursive;
+    font-family: 'Bubblegum Sans', ;
     font-size: 5rem;
     text-transform: uppercase;
     display: flex;
