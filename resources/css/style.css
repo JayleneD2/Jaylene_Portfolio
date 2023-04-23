@@ -11,18 +11,20 @@ nav {
   z-index: 100;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease-in-out;
+  
+  
   }
 
 
 nav ul {
 
   display: flex;
-
 }
 
 nav ul li {
   margin: 20px;
   list-style: none;
+  
 }
 
 nav ul li a {
@@ -49,10 +51,13 @@ nav ul li a:hover {
 #home-header {
     background-image: linear-gradient(to right top, #efadff, #b580c5, #7f558d, #4d2e59, #20092a);  color: white;
    display: flex;
-   height: 100vh;
    justify-content: center;
    align-items: center;
-   flex-direction: column; 
+   flex-direction: column;    
+   height: 70vh;
+   position:relative;
+   padding:20px;
+
  
  }
 
@@ -63,7 +68,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px;
+    
   }
   
   #home-header p {
@@ -74,18 +79,22 @@ nav ul li a:hover {
   }
   
   .contact-button {
-    margin-top: 50px ;
-    padding: 40px ;
-    font-size: 24px;
+     padding: 10px ;
+    font-size: 20px;
     cursor: pointer;
     text-align: center;
     background-color: transparent;
     border: none;
     border-radius: 60px;
     box-shadow: 0 9px white;
+      bottom: 50px;
+      left: 50%;
+      
+     }
+    
     
 
-  }
+  
 
   .contact-button a {
    color: #fff;
