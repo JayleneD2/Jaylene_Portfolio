@@ -67,7 +67,7 @@ nav ul li a:hover {
   }
   
   #home-header p {
-    font-family: 'Bubblegum Sans', cursive;
+    font-family: 'Bubblegum Sans';
     font-size: 2rem;
     text-align: center;
     margin-top: 50px;
@@ -102,6 +102,8 @@ nav ul li a:hover {
   #animate-me {
     transform: translateX(-100%);
     transition: transform 4s ease-in-out;
+    margin-top: auto;
+    
   }
 
 
